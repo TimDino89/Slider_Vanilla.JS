@@ -38,6 +38,7 @@ function Slider(slides) {
 
   // Show Next Slide
   this.nextSlide = function(){
+    console.log(this.maxPosition());
     if (this.position == this.maxPosition()) return false;
 
     this.position += this.itemWidth() * this.slidesToShow;
@@ -55,7 +56,7 @@ function Slider(slides) {
 };
 
 // New object Slider
-const slider = new Slider(3);
+const slider = new Slider(4);
 
 // Events
 slider.nextBtn.addEventListener('click', slider.nextSlide.bind(slider));
