@@ -5,7 +5,7 @@ function Slider(slides) {
 
   // Slides To Show and Slider Start Position
   this.slidesToShow = slides;
-  this.position = 1;
+  this.position = 0;
 
   // DOM Elements
   this.sliderBox = document.querySelector('#js-slider');
