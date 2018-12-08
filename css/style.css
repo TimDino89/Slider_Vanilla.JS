@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+
+#js-slider {
+  max-width: 700px;
+  margin: 50px auto;
+  overflow: hidden;
+}
+
+#js-slider-list {
+  position: relative;
+  right: 0;
+  white-space: nowrap;
+  font-size: 0;
+  transition: .5s;
+}
+
+.slider-item {
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 20px;
+}
+
+.slider-btns {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn {
+  padding: 10px 30px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #fff;
+  color: #333;
+}
